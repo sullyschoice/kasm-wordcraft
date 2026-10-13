@@ -9,7 +9,7 @@ on:
       - develop
 
   schedule:
-    - cron: "0 13 22 * *"
+    - cron: "0 13 * * 1"
 
 jobs:
   docker_publish:
